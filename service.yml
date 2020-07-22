@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: my-service1
   labels:
-    env: testing
+    env: production
     region: IN
 spec:
   selector:
-    env: testing
+    env: production
   type: NodePort
   ports:
     - nodePort: 31200
